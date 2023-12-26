@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function ClientsPage() {
   const clients = [
-    { id: "max", name: "Maximilian" },
-    { id: "manu", name: "Manuel" },
+    { id: "hus", name: "Huseyin" },
+    { id: "soy", name: "Soylu" },
   ];
 
   return (
