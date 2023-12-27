@@ -1,5 +1,10 @@
 function UserProfilePage(props) {
-  return <h1>{props.username}</h1>;
+  return (
+    <div>
+      <h1>{props.firstname}</h1>
+      <h2>{props.surname}</h2>
+    </div>
+  );
 }
 
 export default UserProfilePage;
@@ -9,7 +14,8 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      username: "Huseyin",
+      firstname: "Huseyin",
+      surname: "Soylu",
     },
   };
 }
